@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quicksilver.moviesapp.views.movieDetails.MovieDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:numStars="5" />
+
+        <TextView
+            android:id="@+id/tv_rating_votes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating_bar"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary_light" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/BigText"
+            android:textStyle="bold"
+            android:textColor="@color/primary_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_rating_votes"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/iv_wallpaper"
+            android:layout_marginStart="0sp"
+            android:layout_width="wrap_content"
+            android:layout_height="350sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tv_title" />
+
+        <TextView
+            android:id="@+id/tv_category"
+            style="@style/DetailsText"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/iv_wallpaper"/>
+
+        <TextView
+            android:id="@+id/cast"
+            android:layout_marginStart="6sp"
+            android:textStyle="bold"
+            style="@style/DetailsText"
+            android:textColor="@color/primary_light"
+            android:text="@string/movie_details_cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_category"/>
+
+        <TextView
+            android:id="@+id/tv_cast"
+            android:layout_marginStart="6sp"
+            style="@style/MediumText"
+            android:textColor="@color/primary_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cast"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_marginStart="6sp"
+            android:textStyle="bold"
+            style="@style/DetailsText"
+            android:textColor="@color/primary_light"
+            android:text="@string/movie_details_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_cast"/>
+
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_marginStart="6sp"
+            style="@style/MediumText"
+            android:textColor="@color/primary_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quicksilver.moviesapp.views.users.login.LoginFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_dark">
+
+        <ImageView
+            android:id="@+id/iv_user_icon"
+            android:src="@drawable/user"
+            android:layout_marginTop="150sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_sign_in"
+            style="@style/BigText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign-in"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary_light"
+            android:layout_below="@+id/iv_user_icon"/>
+
+        <EditText
+            android:id="@+id/et_username"
+            android:hint="Username"
+            android:textColorHint="@color/primary_light"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/primary_light"
+            android:layout_below="@id/tv_sign_in"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="Password"
+            android:textColorHint="@color/primary_light"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary_light"
+            android:layout_below="@id/et_username"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/et_password"/>
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:id="@+id/tv_info"
+            android:text="Don't you have an account?"
+            android:textColor="@color/primary_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_login"/>
+
+        <TextView
+            android:id="@+id/tv_go_to_register_form"
+            android:clickable="true"
+            android:text=" Please make it now."
+            android:textColor="#00ffcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_info"
+            android:layout_centerHorizontal="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

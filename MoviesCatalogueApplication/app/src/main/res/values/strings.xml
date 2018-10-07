@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movies Catalogue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_genres">Genres</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="movie_details_cast">Cast: </string>
+    <string name="movie_details_description">Description: </string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home_activity">Home</string>
+    <string name="tv_rating_votes">Votes: %1$d</string>
+
+    <string name="about_us_info">We are Quick Silver team from Telerik Academy.
+        We love movies and we also love to make users of our applications satisfied.</string>
+
+</resources>
