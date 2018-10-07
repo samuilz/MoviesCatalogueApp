@@ -1,4 +1,4 @@
-### This is movie catalogue application made on Android with MVP architecture. It is use Dagger2, OkHttp, Gson, ButterKnife and other libraries.  
+### This is movie catalogue application made on Android with MVP architecture. It has REST Service with MySQL Database, JPA Repository with Spring Data, Dependency Injection with Dagger, HTTP Requests with OkHttp, Unit tests with JUnit and Mockito and other functionality and libraries.
 
 # Contributors: 
 - Cveta Getova (*tsvetely*)
@@ -18,4 +18,5 @@ to help our users to choose their movies properly. We give an opportunity to our
 ![Alt text](https://github.com/TeamQuickSilver/MoviesCatalogueApp/blob/master/images/image6.png)
 ![Alt text](https://github.com/TeamQuickSilver/MoviesCatalogueApp/blob/master/images/image7.png)
 
+ - ## [GitHub Page](https://github.com/TeamQuickSilver/MoviesCatalogueApp)
 
