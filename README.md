@@ -18,4 +18,5 @@ to help our users to choose their movies properly. We give an opportunity to our
 ![Alt text](https://github.com/TeamQuickSilver/MoviesCatalogueApp/blob/master/images/image6.png)
 ![Alt text](https://github.com/TeamQuickSilver/MoviesCatalogueApp/blob/master/images/image7.png)
 
+ - ## [GitHub Page](https://github.com/TeamQuickSilver/MoviesCatalogueApp)
 
